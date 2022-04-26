@@ -68,6 +68,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          
 
           .leftContainer{
             width: 90%;
@@ -114,6 +115,9 @@
             p{
               font-size: 20px;
               font-weight: 300;
+              
+
+              
 
               @include mobile{
                 display: none;

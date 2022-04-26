@@ -1,5 +1,7 @@
 
 import { useState } from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { IconButton } from '@mui/material';
 import './works.scss'
 
 export default function Works() {
@@ -66,9 +68,11 @@ export default function Works() {
                 <p>
                   {d.desc}
                 </p>
-                <a href={d.git}> 
-                 <img src="/assets/githubIcon.png" id="github" alt="" />
-                </a>
+                <p>
+                <IconButton href={d.git}target='_blank' rel='noopener noreferrer'>
+                  <GitHubIcon />GITHUB REPO
+                </IconButton>
+                </p>
               </div>
             </div>
             <div className="right">
