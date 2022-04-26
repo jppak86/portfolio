@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 export default function Contact() {
   const form = useRef();
@@ -45,6 +46,11 @@ export default function Contact() {
           <li>
             <IconButton href='https://www.linkedin.com/in/jaydenpak/' target='_blank' rel='noopener noreferrer'>
               <LinkedInIcon />
+            </IconButton>
+          </li>
+          <li>
+            <IconButton href='https://twitter.com/JaydenPak' target='_blank' rel='noopener noreferrer'>
+              <TwitterIcon />
             </IconButton>
           </li>
         </ul>
