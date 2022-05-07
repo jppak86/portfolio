@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PortfolioList from '../portfolioList/PortfolioList'
 import './portfolio.scss'
-import { allPortfolio, reactPortfolio, javascriptPortfolio, nodePortfolio, pythonPortfolio, flaskPortfolio } from '../../data';
+import { allPortfolio, reactPortfolio, javascriptPortfolio, nodePortfolio, pythonPortfolio, flaskPortfolio, postgreSQLPortfolio, mongoDBPortfolio, expressPortfolio } from '../../data';
 
 
 export default function Portfolio() {
@@ -15,8 +15,20 @@ export default function Portfolio() {
       
     },
     {
+      id: 'javascript',
+      title: 'JavaScript',
+    },
+    {
+      id: 'python',
+      title: 'Python',
+    },
+    {
       id: 'node',
       title: 'Node.js',
+    },
+    {
+      id: 'express',
+      title: 'Express.js',
     },
     {
       id: 'react',
@@ -27,12 +39,12 @@ export default function Portfolio() {
       title: 'Flask',
     },
     {
-      id: 'javascript',
-      title: 'JavaScript',
+      id: 'mongodb',
+      title: 'MongoDB',
     },
     {
-      id: 'python',
-      title: 'Python',
+      id: 'postgresql',
+      title: 'PostgreSQL',
     },
   ];
 
@@ -55,6 +67,15 @@ export default function Portfolio() {
         break;
       case 'python':
         setData(pythonPortfolio);
+        break;
+      case 'postgresql':
+        setData(postgreSQLPortfolio);
+        break;
+      case 'mongodb':
+        setData(mongoDBPortfolio);
+        break;
+      case 'express':
+        setData(expressPortfolio);
         break;
       default:
         setData(allPortfolio);

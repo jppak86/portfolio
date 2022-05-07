@@ -49,7 +49,7 @@
       .about_me-image{
         border-radius: 5px;
         overflow: hidden;
-        transform: rotate(10deg);
+        transform: rotate(0deg);
         transition: all, 2s, ease;
 
         img{
@@ -60,7 +60,7 @@
       }
 
       .about_me-image:hover{
-        transform: rotate(0);
+        transform: rotate(10deg);
       }
 
     }

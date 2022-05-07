@@ -4,7 +4,7 @@ export const allPortfolio = [
     title: 'Spurs best eleven',
     img: 'assets/teams_new_page.png',
     url: 'https://spurs-best-eleven.herokuapp.com/',
-    skills: 'MongoDB, MongoDB, Express, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript',
+    skills: 'MongoDB, Express.js, Node.js, Mongoose, HTML, CSS, Javascript',
   },
 
   {
@@ -12,7 +12,7 @@ export const allPortfolio = [
     title: 'nextDate',
     img: 'assets/nextDateLogin.png',
     url: 'https://next-date-front.herokuapp.com/login',
-    skills:"MongoDB, MongoDB, Express, React.js, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript",
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
   },
 
   {
@@ -20,7 +20,7 @@ export const allPortfolio = [
     title: 'beCoder',
     img: 'assets/LandingPage.png',
     url: 'https://thriving-malasada-22873a.netlify.app/login',
-    skills: 'React, Flask, Node, JavsScript, Python, postfreSQL,',
+    skills: 'React, Flask, Node, JavsScript, HTML, CSS, Python, postgreSQL',
   },
 
   {
@@ -28,7 +28,7 @@ export const allPortfolio = [
     title: 'snakeBob',
     img: 'assets/snakeBob.png',
     url: "https://snake-growth-game.surge.sh/",
-    skills: 'HTML, CSS, Javascript(DOM manipulation)',
+    skills: 'HTML, CSS, Javascript',
   },
 
 ];
@@ -38,7 +38,7 @@ export const nodePortfolio = [
     title: 'Spurs best eleven',
     img: 'assets/teams_new_page.png',
     url: 'https://spurs-best-eleven.herokuapp.com/',
-    skills: 'MongoDB, MongoDB, Express, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript',
+    skills: 'MongoDB, Express.js, Node.js, Mongoose, HTML, CSS, Javascript',
   },
 
   {
@@ -46,7 +46,44 @@ export const nodePortfolio = [
     title: 'nextDate',
     img: 'assets/nextDateLogin.png',
     url: 'https://next-date-front.herokuapp.com/login',
-    skills:"MongoDB, MongoDB, Express, React.js, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript",
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
+  },
+
+];
+
+export const expressPortfolio = [
+  {
+    id: 1,
+    title: 'Spurs best eleven',
+    img: 'assets/teams_new_page.png',
+    url: 'https://spurs-best-eleven.herokuapp.com/',
+    skills: 'MongoDB, Express.js, Node.js, Mongoose, HTML, CSS, Javascript',
+  },
+
+  {
+    id: 2,
+    title: 'nextDate',
+    img: 'assets/nextDateLogin.png',
+    url: 'https://next-date-front.herokuapp.com/login',
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
+  },
+
+];
+export const mongoDBPortfolio = [
+  {
+    id: 1,
+    title: 'Spurs best eleven',
+    img: 'assets/teams_new_page.png',
+    url: 'https://spurs-best-eleven.herokuapp.com/',
+    skills: 'MongoDB, Express.js, Node.js, Mongoose, HTML, CSS, Javascript',
+  },
+
+  {
+    id: 2,
+    title: 'nextDate',
+    img: 'assets/nextDateLogin.png',
+    url: 'https://next-date-front.herokuapp.com/login',
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
   },
 
 ];
@@ -58,7 +95,7 @@ export const reactPortfolio = [
     title: 'nextDate',
     img: 'assets/nextDateLogin.png',
     url: 'https://next-date-front.herokuapp.com/login',
-    skills:"MongoDB, MongoDB, Express, React.js, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript",
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
   },
 
   {
@@ -66,7 +103,7 @@ export const reactPortfolio = [
     title: 'beCoder',
     img: 'assets/LandingPage.png',
     url: 'https://thriving-malasada-22873a.netlify.app/login',
-    skills: 'React, Flask, Node, JavsScript, Python, postfreSQL,',
+    skills: 'React, Flask, Node, JavsScript, HTML, CSS, Python, postgreSQL',
   },
 
 ];
@@ -77,7 +114,18 @@ export const pythonPortfolio = [
     title: 'beCoder',
     img: 'assets/LandingPage.png',
     url: 'https://thriving-malasada-22873a.netlify.app/login',
-    skills: 'React, Flask, Node, JavsScript, Python, postfreSQL,',
+    skills: 'React, Flask, Node, JavsScript, HTML, CSS, Python, postgreSQL',
+  },
+
+
+];
+export const postgreSQLPortfolio = [
+  {
+    id: 1,
+    title: 'beCoder',
+    img: 'assets/LandingPage.png',
+    url: 'https://thriving-malasada-22873a.netlify.app/login',
+    skills: 'React, Flask, Node, JavsScript, HTML, CSS, Python, postgreSQL',
   },
 
 
@@ -89,7 +137,7 @@ export const flaskPortfolio = [
     title: 'beCoder',
     img: 'assets/LandingPage.png',
     url: 'https://thriving-malasada-22873a.netlify.app/login',
-    skills: 'React, Flask, Node, JavsScript, Python, postfreSQL,',
+    skills: 'React, Flask, Node, JavsScript, HTML, CSS, Python, postgreSQL',
   },
 
 
@@ -101,14 +149,14 @@ export const javascriptPortfolio = [
     title: 'Spurs best eleven',
     img: 'assets/teams_new_page.png',
     url: 'https://spurs-best-eleven.herokuapp.com/',
-    skills: 'MongoDB, MongoDB, Express, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript',
+    skills: 'MongoDB, Express.js, Node.js, Mongoose, HTML, CSS, Javascript',
   },
   {
     id: 2,
     title: 'nextDate',
     img: 'assets/nextDateLogin.png',
     url: 'https://next-date-front.herokuapp.com/login',
-    skills:"MongoDB, MongoDB, Express, React.js, Node.js (MEN Stack), Mongoose, HTML, CSS , Javascript",
+    skills:"MongoDB, Express.js, React.js, Node.js, HTML, CSS, Javascript",
   },
   {
     id: 3,
